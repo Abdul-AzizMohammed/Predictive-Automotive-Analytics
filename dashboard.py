@@ -17,7 +17,7 @@ st.set_page_config(
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"D:\UWS STUDIES\Term 2 Final Year Project\Project Chapters\Guide\Implementation\AutomotiveProject\ML Car Diagnostic Agent AI Assistant.csv")
+    df = pd.read_csv(ML Car Diagnostic Agent AI Assistant.csv)
     return df
 
 df = load_data()
